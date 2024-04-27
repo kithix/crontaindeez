@@ -1,0 +1,7 @@
+# Some realish stuff 
+* * * * *	root	/ping.sh 8.8.8.8 | /formatter.sh pinger | /to_cron.sh 2>&1
+
+# Some mock stuff
+* * * * *	root	/mock_job.sh | /formatter.sh | /to_cron.sh
+* * * * *	root	/mock_job.sh | /formatter.sh | /to_cron.sh
+* * * * *	root	/mock_job.sh | /formatter.sh | /to_cron.sh
