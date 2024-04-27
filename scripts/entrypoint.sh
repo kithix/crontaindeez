@@ -14,6 +14,6 @@ echo "Running cron"
 cron -f
 
 # If cron dies, any underlying processes may still be running
-# Kill all processes based on 
+# Kill all processes based on containers UID
 echo "Killing all processes"
 pkill -U $UID
